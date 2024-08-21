@@ -1,0 +1,12 @@
+.card {
+  border: 1px solid rgb(255, 255, 255); /* Puedes mantener el borde si lo deseas */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(251, 250, 250, 0.1);
+  overflow: hidden;
+  background-color: white; /* Fondo transparente */
+}
+
+.card-body {
+  padding: 15px;
+  background-color: white; /* Fondo transparente */
+}

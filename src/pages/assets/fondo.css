@@ -1,0 +1,30 @@
+.container-main {
+  display: flex;
+  flex-direction: column; /* Cambia a row si quieres que los elementos estén en fila */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100vh; /* Esto asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espacio entre los botones */
+}
+
+.container-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+body {
+  background-color: wheat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
