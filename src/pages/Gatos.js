@@ -33,7 +33,7 @@ const Gatos = () => {
     {
       nombre: "Nina",
       edad: "3 años",
-      color: "Blanco",
+      color: "Negro Con Blanco",
       personalidad: "Independiente",
       residencia: "Concepción",
       imagen: gato3,
@@ -41,7 +41,7 @@ const Gatos = () => {
     {
       nombre: "Leo",
       edad: "4 años",
-      color: "Marrón",
+      color: "Gris Con Blanco",
       personalidad: "Curioso",
       residencia: "Talca",
       imagen: gato4,
@@ -49,7 +49,7 @@ const Gatos = () => {
     {
       nombre: "Luna",
       edad: "5 años",
-      color: "Negro",
+      color: "Atigrado",
       personalidad: "Amigable",
       residencia: "Santiago",
       imagen: gato5,
@@ -57,7 +57,7 @@ const Gatos = () => {
     {
       nombre: "Toby",
       edad: "2 años",
-      color: "Atigrado",
+      color: "Gris",
       personalidad: "Juguetón",
       residencia: "Rancagua",
       imagen: gato6,

@@ -1,0 +1,29 @@
+.review-card {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .review-card img {
+    max-width: 100%;
+  }
+  
+  .review-card .rounded-circle {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .review-card h6 {
+    font-weight: bold;
+  }
+  
+  .review-card small {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .review-card p {
+    font-size: 14px;
+  }
+  

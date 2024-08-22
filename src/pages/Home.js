@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import { Link } from "react-router-dom";
+import ExperienceContainer from "./ExperienceContainer";
+import PartnersContainer from "../components/PartnersContainer"; // Asegúrate de que la ruta es correcta
 
 const Home = () => {
   return (
@@ -148,6 +149,39 @@ const Home = () => {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
+
+      {/* Sección de experiencias de clientes */}
+      <div className="row">
+        <div className="col-md-4">
+          <ExperienceContainer
+            photo="https://via.placeholder.com/80"
+            name="Juan Pérez"
+            city="Santiago, Chile"
+            comment="Esta página es increíble. El servicio fue excelente y definitivamente lo recomendaré a mis amigos."
+          />
+        </div>
+        <div className="col-md-4">
+          <ExperienceContainer
+            photo="https://via.placeholder.com/80"
+            name="Ana Gómez"
+            city="Buenos Aires, Argentina"
+            comment="Tuve una experiencia maravillosa. El sitio es muy fácil de usar y encontré justo lo que necesitaba."
+          />
+        </div>
+        <div className="col-md-4">
+          <ExperienceContainer
+            photo="https://via.placeholder.com/80"
+            name="Carlos Díaz"
+            city="Lima, Perú"
+            comment="Me encantó la atención al cliente. Muy recomendada esta página."
+          />
+        </div>
+      </div>
+
+      {/* Sección de Partners */}
+      <div className="mt-5">
+        <PartnersContainer />
       </div>
     </div>
   );
